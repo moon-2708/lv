@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>8 Months With You 💖</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0d0812;
+overflow-x:hidden;
+color:white;
+}
+
+/* Sections */
+
+section{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+padding:30px 20px;
+position:relative;
+overflow:hidden;
+}
+
+/* Background */
+
+section::before{
+content:'';
+position:absolute;
+width:500px;
+height:500px;
+background:rgba(255,105,180,0.12);
+filter:blur(120px);
+border-radius:50%;
+z-index:-1;
+animation:moveGlow 8s infinite alternate;
+}
+
+@keyframes moveGlow{
+0%{transform:translate(-100px,-50px);}
+100%{transform:translate(100px,50px);}
+}
+
+/* Video */
+
+video{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
+z-index:-3;
+filter:brightness(35%);
+}
+
+.overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:linear-gradient(to bottom,
+rgba(0,0,0,0.6),
+rgba(20,0,25,0.9));
+z-index:-2;
+}
+
+/* Text */
+
+h1{
+font-size:3rem;
+color:#ff9ecf;
+text-shadow:0 0 20px #ff4da6;
+text-align:center;
+margin-bottom:20px;
+animation:glow 2s infinite alternate;
+}
+
+h2{
+font-size:2rem;
+color:#ffd6ea;
+margin-bottom:20px;
+text-align:center;
+}
+
+p{
+font-size:1rem;
+line-height:1.8;
+text-align:center;
+max-width:800px;
+color:#f7dbe8;
+}
+
+/* Glow */
+
+@keyframes glow{
+from{
+text-shadow:0 0 10px #ff69b4;
+}
+to{
+text-shadow:0 0 25px #ff1493,
+0 0 40px #ff1493;
+}
+}
+
+/* Buttons */
+
+.btn-box{
+display:flex;
+gap:15px;
+margin-top:25px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.btn{
+padding:14px 30px;
+border:none;
+border-radius:40px;
+background:#ff4da6;
+color:white;
+font-size:1rem;
+cursor:pointer;
+transition:0.4s;
+box-shadow:0 0 20px rgba(255,77,166,0.6);
+}
+
+.btn:hover{
+transform:scale(1.08);
+background:#ff80bf;
+}
+
+/* Cards */
+
+.card{
+background:rgba(255,255,255,0.08);
+padding:25px;
+border-radius:25px;
+backdrop-filter:blur(12px);
+border:1px solid rgba(255,255,255,0.15);
+box-shadow:0 0 20px rgba(255,105,180,0.2);
+max-width:380px;
+}
+
+/* Images */
+
+.card img{
+width:100%;
+border-radius:20px;
+border:3px solid #ff7eb9;
+margin-bottom:20px;
+box-shadow:0 0 20px rgba(255,105,180,0.5);
+transition:0.5s;
+}
+
+.card img:hover{
+transform:scale(1.03);
+}
+
+/* Floating Emojis */
+
+.float{
+font-size:2rem;
+margin-top:15px;
+animation:float 3s infinite ease-in-out;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-10px);}
+100%{transform:translateY(0);}
+}
+
+/* Collage */
+
+.collage{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+width:100%;
+max-width:1000px;
+margin-top:30px;
+}
+
+.collage-item{
+position:relative;
+}
+
+.collage img{
+width:100%;
+height:320px;
+object-fit:cover;
+border-radius:25px;
+border:3px solid #ff7eb9;
+box-shadow:0 0 20px rgba(255,105,180,0.5);
+}
+
+.emoji{
+position:absolute;
+top:10px;
+right:10px;
+font-size:1.4rem;
+background:rgba(0,0,0,0.4);
+padding:5px 10px;
+border-radius:20px;
+}
+
+/* Countdown */
+
+.count{
+font-size:2rem;
+margin-top:20px;
+color:#ff9ecf;
+text-shadow:0 0 15px #ff4da6;
+text-align:center;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+h1{
+font-size:2rem;
+}
+
+h2{
+font-size:1.5rem;
+}
+
+p{
+font-size:0.95rem;
+}
+
+.card{
+max-width:95%;
+}
+
+.collage img{
+height:250px;
+}
+
+.btn{
+padding:12px 22px;
+font-size:0.9rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+
+<section id="page1">
+
+<video autoplay muted loop>
+<source src="Screen Recording 2026-05-26 115123.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<h1>🥰 Welcome To Our Love Story 💖</h1>
+
+<p>
+8 months with you feels like a beautiful fairytale with a little dark-love vibe ✨💌  
+You are my comfort person, my happiness and my favorite forever 💝
+</p>
+
+<div class="float">🌷💖😘💫</div>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page2'">
+Start Our Story 💌
+</button>
+</div>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section id="page2">
+
+<div class="card">
+
+<img src="Screenshot 2026-05-26 115017.png">
+
+<h2>💝 My Favorite Person</h2>
+
+<p>
+Every moment with you feels magical 🥺💖  
+Your hugs feel like home and your smile fixes everything ✨
+</p>
+
+<div class="float">🧿😘🌷</div>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page1'">
+Back 💫
+</button>
+
+<button class="btn" onclick="window.location='#page3'">
+Next 💖
+</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- PAGE 3 -->
+
+<section id="page3">
+
+<div class="card">
+
+<img src="Screenshot 2026-05-26 115042.png">
+
+<h2>💌 Late Night Love</h2>
+
+<p>
+Every late night beside you feels peaceful 🌙💖  
+I could stay wrapped in your arms forever 💝
+</p>
+
+<div class="float">🥰✨💫</div>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page2'">
+Back 💌
+</button>
+
+<button class="btn" onclick="window.location='#page4'">
+Next 💖
+</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- PAGE 4 -->
+
+<section id="page4">
+
+<div class="card">
+
+<img src="Screenshot 2026-05-26 115144.png">
+
+<h2>🌷 Our Cute Chaos</h2>
+
+<p>
+You + Me = the cutest little love story ever 💞🤌🏻  
+Thank you for making life softer and happier 💖
+</p>
+
+<div class="float">💖😘✨</div>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page3'">
+Back 💫
+</button>
+
+<button class="btn" onclick="window.location='#page5'">
+Next 💝
+</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- PAGE 5 -->
+
+<section id="page5">
+
+<div class="card">
+
+<img src="766f0486-7622-47ce-b9d2-32068c4c040f.png">
+
+<h2>💫 My Pretty Boy</h2>
+
+<p>
+You somehow look beautiful in every moment 🥺💖  
+Even the darkness looks romantic when it’s you ✨
+</p>
+
+<div class="float">🧿💌🌷</div>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page4'">
+Back 💖
+</button>
+
+<button class="btn" onclick="window.location='#page6'">
+Next 💝
+</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- PAGE 6 -->
+
+<section id="page6">
+
+<h1>💖 Our Memory Collage 💖</h1>
+
+<div class="collage">
+
+<div class="collage-item">
+<img src="Screenshot 2026-05-26 115017.png">
+<div class="emoji">🧿😘</div>
+</div>
+
+<div class="collage-item">
+<img src="Screenshot 2026-05-26 115042.png">
+<div class="emoji">💖✨</div>
+</div>
+
+<div class="collage-item">
+<img src="Screenshot 2026-05-26 115144.png">
+<div class="emoji">🌷🥰</div>
+</div>
+
+<div class="collage-item">
+<img src="766f0486-7622-47ce-b9d2-32068c4c040f.png">
+<div class="emoji">💌💫</div>
+</div>
+
+</div>
+
+<p style="margin-top:30px;">
+Every picture here is a memory I never want to lose 💝✨
+</p>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page5'">
+Back 💖
+</button>
+
+<button class="btn" onclick="window.location='#page7'">
+Next 💫
+</button>
+</div>
+
+</section>
+
+<!-- PAGE 7 -->
+
+<section id="page7">
+
+<div class="card">
+
+<h2>💖 8 Months Together 💖</h2>
+
+<p>
+8 months of love, comfort, drama, laughter, cute fights and endless memories 🥺💌  
+And still… I fall for you more every single day 💫
+</p>
+
+<div class="count">
+Only 4 Months Left For Our 1 Year Anniversary 🎉💖
+</div>
+
+<div class="float">🌷💝😘✨</div>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page6'">
+Back 💌
+</button>
+
+<button class="btn" onclick="window.location='#page8'">
+Next 💖
+</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- PAGE 8 -->
+
+<section id="page8">
+
+<video autoplay muted loop>
+<source src="Screen Recording 2026-05-26 115123.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<h1>💝 I Love You Endlessly 💝</h1>
+
+<p>
+Thank you for every smile, every hug, every memory and every moment 🥰✨  
+You are my peace, my happiness and my forever person 💖💌
+</p>
+
+<div class="float">💫🌷😘💖</div>
+
+<div class="btn-box">
+<button class="btn" onclick="window.location='#page1'">
+Restart Story 💌
+</button>
+</div>
+
+</section>
+
+</body>
+</html>
